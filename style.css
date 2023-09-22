@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #4074f4;
+}
+.wrapper{
+    width: 370px;
+    border: .1rem solid #d1d1d1;
+    background: #fff;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+.wrapper .amount input{
+    width: 100%;
+    border: .1rem solid #d1d1d1;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+.wrapper .drop{
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.wrapper .drop .from{
+    flex: 1 1 10rem;
+}
+.wrapper .drop .to{
+    flex: 1 1 10rem;
+}
+.wrapper .drop .select-box{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border: .1rem solid #d1d1d1;
+}
+.wrapper .drop .select-box img{
+    width: 30%;
+}
+.wrapper .exchange-rate{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+.wrapper p{
+    font-size: 1.5rem;
+}
